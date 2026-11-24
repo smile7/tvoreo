@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import localFont from "next/font/local";
-import { Analytics } from "@vercel/analytics/react";
+import { SiteAnalytics } from "@/components/SiteAnalytics";
 import "./globals.css";
 
 const display = localFont({
@@ -67,7 +67,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body>
         {children}
-        <Analytics />
+        <SiteAnalytics />
       </body>
     </html>
   );
