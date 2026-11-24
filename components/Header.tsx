@@ -14,7 +14,7 @@ export function Header() {
       <div className="hdr">
         <a className="hdr-logo" href="#top" aria-label="Tvoreo — начало">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/brand/tvoreo-logo-titlecase-tick-lat-light.svg" alt="Tvoreo" width="137" height="49" fetchPriority="high" />
+          <img src="/brand/tvoreo-logo.svg" alt="Tvoreo" width="137" height="49" fetchPriority="high" />
         </a>
         <nav className="hdr-nav" aria-label="Основна навигация">
           <ul>

@@ -1,7 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import localFont from "next/font/local";
 import { Analytics } from "@vercel/analytics/react";
-import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 
 const display = localFont({
@@ -15,7 +14,7 @@ const display = localFont({
 const body = localFont({
   src: "./fonts/Onest.woff2",
   variable: "--font-body",
-  weight: "100 900",
+  weight: "400 700",
   display: "swap",
   preload: true,
 });
@@ -69,7 +68,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         {children}
         <Analytics />
-        <SpeedInsights />
       </body>
     </html>
   );

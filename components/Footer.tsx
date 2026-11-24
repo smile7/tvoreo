@@ -6,7 +6,7 @@ export function Footer() {
       <div className="wrap foot-grid">
         <div className="foot-brand">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/brand/tvoreo-logo-titlecase-tick-lat-white.svg" alt="Tvoreo" width="159" height="57" loading="lazy" />
+          <img src="/brand/tvoreo-logo-white.svg" alt="Tvoreo" width="159" height="57" loading="lazy" />
           <p>Творим софтуер по мярка.</p>
         </div>
         <nav aria-label="Услуги">

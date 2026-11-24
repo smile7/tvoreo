@@ -28,7 +28,7 @@ const jsonLd = {
       description:
         "Софтуерно студио от Русе: уебсайтове, приложения, онлайн магазини и QR системи по поръчка за бизнеси в България и Европа.",
       url: "https://tvoreo.com",
-      logo: "https://tvoreo.com/brand/tvoreo-logo-titlecase-tick-lat-light.svg",
+      logo: "https://tvoreo.com/brand/tvoreo-logo.svg",
       founder: { "@type": "Person", name: "Силвена Митева" },
       address: { "@type": "PostalAddress", addressLocality: "Русе", addressCountry: "BG" },
       areaServed: ["BG", "EU"],
